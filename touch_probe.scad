@@ -7,4 +7,4 @@ $fn = 32;
 translate([0,0,-2]) core();
 base();
 translate([0,0,-24]) stylus();
-case();
+%case();
