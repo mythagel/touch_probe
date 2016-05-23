@@ -4,7 +4,7 @@ module core() {
     rod_r = 1.74/2;
     rod_l = 6;
     core_r = 8/2;
-    core_h = 8;
+    core_h = 10;
     difference() {
         cylinder(h=core_h, r=core_r);
         translate([0,0,-0.5]) cylinder(h=core_h+1,r=2/2);
